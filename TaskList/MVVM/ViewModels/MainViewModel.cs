@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PropertyChanged;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
@@ -8,6 +9,7 @@ using TaskList.MVVM.Models;
 
 namespace TaskList.MVVM.ViewModels
 {
+    [AddINotifyPropertyChangedInterface]
     public class MainViewModel
     {
         #region Properties
